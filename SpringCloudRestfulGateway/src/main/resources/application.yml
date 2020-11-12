@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  application:
+     name: RestfulGateway
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8070/eureka/
